@@ -21,7 +21,8 @@ if(request.readystate === XMLHttpRequest.DONE)
 
 //Render the variable in the correct span
 //Make the request
-//request.open('GET','https://cloud.imad.hasura.io/home/counter',true);
+request.open('GET','http://nkrishnas.imad.hasura-app.io/counter',true);
+request.send(null);
 //counter = counter + 1;
 //span.innerHTML = counter.toString();
 };
